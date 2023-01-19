@@ -1,8 +1,7 @@
 .container{
     height: 100vh;
     width: 100vw;
-    background-image: url('https://images3.alphacoders.com/563/563119.jpg');
+    /* background-image: url('https://images3.alphacoders.com/563/563119.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }

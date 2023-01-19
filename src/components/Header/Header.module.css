@@ -1,0 +1,78 @@
+.container{
+    /* filter: blur(10px); */
+    height: 10vh;
+    width: 100vw;
+    display: flex !important;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 1rem; */
+    background-color: var(--dark);
+    color: var(--white);
+    overflow: hidden;
+    padding: 0.5rem 2rem;
+    position: fixed;
+}
+.left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--white);
+    filter: none !important;
+}
+.right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+.right > *{
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    position: relative;
+}
+.right > *:hover:after {
+    content: '';
+    width: 50px;
+    height: 100%;
+    /* background-color:red; */
+    background-image: url('../../../public/littlepanda.png');
+    background-size: cover;
+    top: -15px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    /* animation: showPanda 2s ease ; */
+}
+.rightBoxB::after{
+    display: none;
+}
+.rightBoxB button {
+    background-color: red;
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 2rem;
+    border-radius: 1.2rem;
+    border: none;
+    background: var(--white);
+    color: var(--dark);
+    /* background: var(--primaryDark); */
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 2px;
+    /* transition: 5s ease-in; */
+}
+

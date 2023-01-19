@@ -1,0 +1,22 @@
+.container{
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start ;
+    gap: 2rem;
+    background: white;
+    /* color: var(--darkText); */
+    background: transparent;
+}
+
+.box{
+    background: var(--dark);
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 500px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
