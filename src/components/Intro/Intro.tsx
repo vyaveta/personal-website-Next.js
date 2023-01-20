@@ -10,7 +10,7 @@ const Intro = () => {
   return (
     <div className={css.container}>
         <div className={css.imageDiv}>
-            <img src="/littleastro.png" alt="" />
+            <img src="../../../public/littleastro.png" alt="" />
         </div>
         <div className={css.intro}>
             <div className={css.selfIntro}>
